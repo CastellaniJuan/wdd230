@@ -37,10 +37,15 @@ footer.box{
 }
 
 .design-grid{
+    max-width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
     grid-gap:0.5em;
 
+}
+.box-container{
+    max-width: 100%;
+    padding:0.5em;
 }
