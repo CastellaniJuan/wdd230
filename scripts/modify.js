@@ -4,6 +4,6 @@ let year = currentDate.getFullYear()
 let hours = LastModify.getHours()
 let minutes = LastModify.getMinutes()
 let seconds = LastModify.getSeconds()
-let LastModifyM = new Date (year, month, day, hours, minutes, seconds)
+
 document.getElementById("modify").textContent += LastModify.toLocaleDateString("en-US") +" "+hours+":"+minutes+":"+seconds;
 document.getElementById("copyright").textContent = year;
