@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6{
     grid-gap:0.5em;
 
 }
-@media (min-width:751px){
+@media (min-width:769px){
     .design-grid{
         margin:1em 0;
         max-width: 100%;
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6{
     }
 }
 
-@media (max-width:750px){
+@media (max-width:768px){
     .design-grid{
         margin:1em 0;
         max-width: 100%;
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6{
     }
 }
 
-@media (max-width:400px){
+@media (max-width:480px){
     .design-grid{
         margin:1em 0;
         max-width: 100%;
