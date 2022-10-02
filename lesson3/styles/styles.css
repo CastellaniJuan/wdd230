@@ -10,14 +10,15 @@ body{
     min-height: 100vh;
 }
 
+main{
+    min-height: 70vh;
+}
+
 h1, h2, h3, h4, h5, h6{
     font-family: 'Palatino', "Palatino Linotype";
     color: #2f6690;
 }
-img{
-    max-width: 100%;
-    max-height: 100%;
-}
+
 header{
     display: flex;
     align-content: center;
@@ -26,7 +27,7 @@ header{
 }
 header h1{
     text-align: center;
-    margin: 0;
+    margin: auto 0;
 }
 
 nav {
@@ -38,6 +39,7 @@ nav ul {
 	list-style-type: none;
 	overflow: hidden;
     display: flex;
+    padding: 0;
 }
 
 nav ul li { 
@@ -56,6 +58,7 @@ nav ul li a {
     text-align: center;
     max-width: 80%;
     margin: auto;
+    min-height: 20em;
 }
 
 .textbox h2{
@@ -73,10 +76,122 @@ footer{
     width: 100%;
 }
 
-footer img, footer div{
-    flex: 1 1 auto;
+.footernames{
+    padding: 0;
+    margin: auto 0;
+}
+.footernames h1, .footernames h2{
+    margin: auto 0;
+    text-align: center;
+
 }
 
-.footernames{
-    text-align: center;
+.contact{
+    margin: auto;
+    width: 40%;
+}
+.contact h2,.contact p, .contact nav ul{
+    margin: 0;   
+}
+.contact h2{
+    background-color: #2f6690;
+    color: #F5F1ED;
+    padding: 0 0.15em;
+}
+
+.contact nav {
+    padding: 0;
+    background-color: #F5F1ED;
+    
+}
+
+.contact nav ul li a{
+    padding: 0;
+}
+.contact nav ul li a img{
+    width: 2em;
+    height: 2em;
+}
+
+@media (max-width:480px) {
+    main{
+        min-height: 40vh;
+    }
+    nav {
+        margin: 0 auto;
+        max-width: 900px;
+        background-color: #2f6690;
+    }
+    nav ul {
+        list-style-type: none;
+        overflow: hidden;
+        display: block;
+        padding: 0;
+    }
+    /*
+    nav ul li { 
+        flex: 1 1 auto; 
+    } */
+    nav ul li a {
+        display: block;
+        color: #F8F1FF;
+        text-align: center;
+        padding: 0.75em;
+        text-decoration: none;
+        font-size: 1em;
+    }
+
+    footer{
+        display: block;
+        width: 100%;
+    }
+    footer>img{
+        visibility: hidden;
+    }
+    .footernames{
+        padding: 0;
+        margin: 0.2em;
+    }
+    .footernames h1{
+        margin: auto 0em;
+        text-align: center;
+    }
+    
+    .contact{
+        margin: auto;
+        width: 100%;
+    }
+    .contact h2,.contact p, .contact nav ul{
+        margin: 0;   
+    }
+    .contact h2{
+        background-color: #2f6690;
+        color: #F5F1ED;
+        padding: 0 0.15em;
+    }
+    
+    .contact nav {
+        padding: 0;
+        background-color: #F5F1ED;  
+    }
+    .contact nav ul {
+        display: flex;
+    }
+    .contact nav ul li { 
+        flex: 1 1 auto; 
+    }
+    .contact nav ul li a{
+        padding: 0;
+    }
+    .contact nav ul li a img{
+        width: 2em;
+        height: 2em;
+    }
+
+    .textbox{
+        text-align: center;
+        max-width: 100%;
+        margin: auto;
+        min-height: 10em;
+    }
 }
