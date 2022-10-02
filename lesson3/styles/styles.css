@@ -1,43 +1,82 @@
 html{
     height: 100vh;
+    background-color: #F5F1ED;
 }
 body{
-    padding: 1em;
-    margin: auto;
+    padding: 0 1em;
+    margin: 0 auto;
     max-width: 900px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
     min-height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Palatino', "Palatino Linotype";
+    color: #2f6690;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+header{
+    display: flex;
+    align-content: center;
+    width: 100%;
     
 }
-
-
+header h1{
+    text-align: center;
+    margin: 0;
+}
 
 nav {
-	background-color: #36454f;
 	margin: 0 auto;
-	max-width: 780px;
-	box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+	max-width: 900px;
+    background-color: #2f6690;
 }
 nav ul {
 	list-style-type: none;
 	overflow: hidden;
+    display: flex;
 }
+
+nav ul li { 
+    flex: 1 1 auto; 
+} 
 nav ul li a {
 	display: block;
-	color: #fff;
+	color: #F8F1FF;
 	text-align: center;
-	padding: 0.75rem;
+	padding: 0.75em;
 	text-decoration: none;
-	font-size: 0.95rem;
-	background: linear-gradient(90deg, transparent, yellow, transparent) bottom /
-		var(--d, 0) 3px no-repeat;
-	transition: 0.5s;
+	font-size: 1em;
 }
 
-nav ul { display: flex; }
+.textbox{
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+}
 
-nav ul li { flex: 1 1 auto; } 
+.textbox h2{
+    background-color: #2f6690;
+    color: #F5F1ED;
+}
+
+.textbox p{
+    font-size: 1.1em;
+    padding: 0 0.5em;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+}
+
+footer img, footer div{
+    flex: 1 1 auto;
+}
+
+.footernames{
+    text-align: center;
+}
