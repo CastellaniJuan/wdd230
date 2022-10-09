@@ -69,9 +69,6 @@
         width: 40%;
     }
 
-    .contact h2,.contact p, .contact nav ul{
-        padding: 0.05em 0;
-    }
     .siteinfo>img{
         visibility: visible;
     }

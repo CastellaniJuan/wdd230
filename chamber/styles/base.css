@@ -10,16 +10,64 @@ body{
     color:#151515;
 }
 
+a{
+    text-decoration: none;
+}
+
 h1, h2, h3, h4, h5, h6{
     font-family: 'Palatino', "Palatino Linotype";
     color: #2f6690;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.name{
+    padding: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.name h1, .name h2{
+    margin: 0 auto;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 480px;
+    background-color: #F5F1ED;
+}
+
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+    display: block;
+    padding: 0;
+}
+
+
+nav ul li a {
+	display: block;
+	color: #3A7CA5;
+	text-align: center;
+	padding: 0.75em;
+	text-decoration: none;
+	font-size: 1.1em;
 }
 
 #date{
     background-color: #3A7CA5;
     color: #F8F1FF;
     text-align: center;
+    padding: 0.5em;
 }
+
+
 
 main{
     margin: auto;
@@ -71,42 +119,6 @@ main{
     grid-row: 7 / 7;
 }
 
-header{
-    display: flex;
-    align-content: center;
-    width: 100%;
-    
-}
-
-header h1{
-    text-align: center;
-    margin: auto 0;
-}
-
-nav {
-	margin: 0 auto;
-	max-width: 480px;
-    background-color: #2f6690;
-}
-
-nav ul {
-	list-style-type: none;
-	overflow: hidden;
-    display: block;
-    padding: 0;
-}
-
-
-nav ul li a {
-	display: block;
-	color: #F8F1FF;
-	text-align: center;
-	padding: 0.75em;
-	text-decoration: none;
-	font-size: 1em;
-}
-
-
 .placeholder{
     background-color: #3A7CA5;
     width: 100%;
@@ -145,37 +157,15 @@ footer{
     width: 100%;
 }
 
-.contact h2,.contact p, .contact nav ul{
-    margin: 0;   
+.contact h2,.contact p{
+    margin: 0.1em;  
+    text-align: center; 
 }
 
 .contact h2{
     background-color: #2f6690;
     color: #F5F1ED;
-    padding: 0 0.15em;
-}
-
-.contact nav {
-    padding: 0;
-    background-color: #F5F1ED;
-    
-}
-
-.contact nav ul {
-    display: flex;
-}
-
-.contact nav ul li { 
-    flex: 1 1 auto; 
-}
-
-.contact nav ul li a{
-    padding: 0;
-}
-
-.contact nav ul li a img{
-    width: 2em;
-    height: 2em;
+    padding: 0.15em;
 }
 
 .siteinfo>img{
@@ -187,7 +177,7 @@ footer{
 }
 
 .footerdetails{
-    background-color: #3A7CA5;
+    background-color: #2f6690;
 }
 
 .footerdetails h3{
