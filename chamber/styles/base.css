@@ -1,66 +1,129 @@
-html{
+html {
     background-color: #F5F1ED;
 }
 
-body{
+body {
     padding: 0 1em;
     margin: 0 auto;
     max-width: 900px;
     font-family: 'Roboto', sans-serif;
-    color:#151515;
+    color: #151515;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Palatino', "Palatino Linotype";
     color: #2f6690;
 }
 
-header{
+.flexheader {
     display: flex;
     align-items: center;
     width: 100%;
-    
+    justify-content: space-between;
 }
 
-.name{
+.logocontainer {
+    display: flex;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.name {
     padding: 0;
     text-align: center;
     display: flex;
     flex-direction: column;
 }
 
-.name h1, .name h2{
+.name h1,
+.name h2 {
     margin: 0 auto;
 }
 
 nav {
-	margin: 0 auto;
-	max-width: 480px;
+    position: relative;
+    margin: 0 auto;
+    max-width: 480px;
     background-color: #F5F1ED;
 }
 
 nav ul {
-	list-style-type: none;
-	overflow: hidden;
-    display: block;
+    background-color: #F5F1ED;
+    border: 1px solid #3A7CA5;
+    top: 0;
+    left: -6em;
+    z-index: 1;
+    position: absolute;
+    list-style-type: none;
+    overflow: hidden;
+    display: none;
     padding: 0;
 }
 
 
 nav ul li a {
-	display: block;
-	color: #3A7CA5;
-	text-align: center;
-	padding: 0.75em;
-	text-decoration: none;
-	font-size: 1.1em;
+    display: block;
+    color: #3A7CA5;
+    text-align: center;
+    padding: 0.75em;
+    text-decoration: none;
+    font-size: 1.1em;
 }
 
-#date{
+
+nav ul.open {
+    display: block;
+}
+
+
+#navbtn {
+    background-color: #F5F1ED;
+    border: 0;
+    color: #3A7CA5;
+    text-align: center;
+    padding: 0.75em;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+#navbtn span:nth-child(1) {
+    display: block;
+}
+
+#navbtn span:nth-child(2) {
+    display: none;
+}
+
+#navbtn.open span:nth-child(1) {
+    display: none;
+}
+
+#navbtn.open span:nth-child(2) {
+    display: block;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.socials img {
+    width: 2em;
+
+}
+
+#date {
     background-color: #3A7CA5;
     color: #F8F1FF;
     text-align: center;
@@ -69,7 +132,7 @@ nav ul li a {
 
 
 
-main{
+main {
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -79,47 +142,47 @@ main{
     grid-gap: 1em;
 }
 
-#event{
+#event {
     grid-column: 1 / 3;
     grid-row: 1 / 1;
 }
 
-#weather{
+#weather {
     grid-column: 1 / 3;
     grid-row: 2 / 2;
 }
 
-#news{
+#news {
     grid-column: 1 / 3;
     grid-row: 3 / 3;
 }
 
-#hero{
+#hero {
     grid-column: 1 / 3;
     grid-row: 4 / 6;
 }
 
-#join{
+#join {
     grid-column: 1 / 1;
     grid-row: 6 / 6;
 }
 
-#spotlight1{
+#spotlight1 {
     grid-column: 2 / 2;
     grid-row: 6 / 6;
 }
 
-#spotlight2{
+#spotlight2 {
     grid-column: 1 / 1;
     grid-row: 7 / 7;
 }
 
-#spotlight3{
+#spotlight3 {
     grid-column: 2 / 2;
     grid-row: 7 / 7;
 }
 
-.placeholder{
+.placeholder {
     background-color: #3A7CA5;
     width: 100%;
     height: 100%;
@@ -127,7 +190,7 @@ main{
     position: relative;
 }
 
-.placeholder p{
+.placeholder p {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -136,52 +199,54 @@ main{
     text-align: center;
 }
 
-footer{
+footer {
     display: block;
     width: 100%;
 }
 
-.footernames{
+.footernames {
     padding: 0;
     margin: 0.2em;
 }
 
-.footernames h1, .footernames h2{
+.footernames h1,
+.footernames h2 {
     margin: auto 0;
     text-align: center;
 
 }
 
-.contact{
+.contact {
     margin: auto;
     width: 100%;
 }
 
-.contact h2,.contact p{
-    margin: 0.1em;  
-    text-align: center; 
+.contact h2,
+.contact p {
+    margin: 0.1em;
+    text-align: center;
 }
 
-.contact h2{
+.contact h2 {
     background-color: #2f6690;
     color: #F5F1ED;
     padding: 0.15em;
 }
 
-.siteinfo>img{
+.siteinfo>img {
     visibility: hidden;
 }
 
-.siteinfo>h3{
-    width:100%;
+.siteinfo>h3 {
+    width: 100%;
 }
 
-.footerdetails{
+.footerdetails {
     background-color: #2f6690;
 }
 
-.footerdetails h3{
+.footerdetails h3 {
     padding: 0.15em;
-    color:#F8F1FF;
+    color: #F8F1FF;
     text-align: center;
 }
