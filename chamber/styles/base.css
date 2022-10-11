@@ -59,7 +59,7 @@ nav {
 
 nav ul {
     background-color: #F5F1ED;
-    border: 1px solid #3A7CA5;
+    border: 1px solid #2f6690;
     top: 0;
     left: -6em;
     z-index: 1;
@@ -73,7 +73,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: #3A7CA5;
+    color: #2f6690;
     text-align: center;
     padding: 0.75em;
     text-decoration: none;
@@ -89,7 +89,7 @@ nav ul.open {
 #navbtn {
     background-color: #F5F1ED;
     border: 0;
-    color: #3A7CA5;
+    color: #2f6690;
     text-align: center;
     padding: 0.75em;
     text-decoration: none;
