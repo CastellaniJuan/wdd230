@@ -71,4 +71,7 @@
         visibility: visible;
     }
 
+    footer {
+        margin-top: 1.1em;
+    }
 }
