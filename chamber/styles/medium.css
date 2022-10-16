@@ -68,7 +68,7 @@
     }
 
     .siteinfo>img {
-        visibility: visible;
+        display: block;
     }
 
     footer {
