@@ -23,6 +23,10 @@
         grid-row: 1 / 1;
     }
 
+    #weatherimg {
+        display: none;
+    }
+
     #news {
         grid-column: 1 / 4;
         grid-row: 2 / 2;

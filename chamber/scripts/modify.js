@@ -17,3 +17,8 @@ let seconds = LastModify.getSeconds();
 document.getElementById("date").textContent = day + ", " + date + " " + month + " " + year;
 document.getElementById("modify").textContent += LastModify.toLocaleDateString("en-US") +" "+hours+":"+minutes+":"+seconds;
 document.getElementById("copyright").textContent = year;
+
+const banner = document.getElementById("banner");
+if (day == "Tuesday" || day =="Monday"){
+    banner.style.display = "block";
+}
