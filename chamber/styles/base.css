@@ -159,7 +159,7 @@ nav ul.open {
 }
 
 main {
-    position: relative;
+
     margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -352,4 +352,33 @@ footer>h2 {
     padding: 0.15em;
     color: #F8F1FF;
     text-align: center;
+}
+
+.discovery-box {
+    grid-column: 1 / 5;
+    display: flex;
+    background-color: #2f6690;
+    width: 100%;
+    color: #F8F1FF;
+}
+
+.discovery-box img {
+    display: block;
+    width: 10em;
+    height: 10em;
+}
+
+.discovery-box p{
+    padding: 1em;
+    font-size: 0.9em;
+}
+
+
+img{
+filter: blur(0em);
+transition: filter 0.5s;
+}
+
+img[data-src] {
+filter: blur(0.2em);
 }

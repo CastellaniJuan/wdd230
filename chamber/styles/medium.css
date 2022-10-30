@@ -78,4 +78,9 @@
     footer {
         margin-top: 1.1em;
     }
+
+    .discovery-box p{
+        font-size: 1em;
+    }
+    
 }
