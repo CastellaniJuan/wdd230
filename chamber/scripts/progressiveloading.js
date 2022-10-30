@@ -8,7 +8,7 @@ const imgOptions = {
 
 const loadImages = (image) => {
     image.setAttribute("src", image.getAttribute("data-src"));
-    image.onload = () => { image.removeAttibute("data-src"); };
+    image.onload = () => { image.removeAttribute("data-src"); };
     image.style.filter = "none";
 
 };
