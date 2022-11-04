@@ -1,0 +1,56 @@
+main {
+    max-width: 960px;
+    margin: auto;
+}
+
+.tablestyle {
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 0px 23px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.tablestyle,
+.tablestyle th,
+.tablestyle td {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5em;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+.tablestyle tbody tr:nth-child(even) {
+    background-color: #EBEBEB;
+    color: #000;
+}
+
+.tablestyle tbody tr td{
+    transition: all 0.5s;
+}
+
+.tablestyle tbody tr td:hover{
+    background-color: #255C99;
+    color: #FFF8F0;
+}
+
+
+
+#mainhead {
+    background-color: #255C99;
+    color: #FFF8F0;
+    font-size: 1.2em;
+}
+
+.heads {
+    background-color: #7EA3CC;
+    color: #FFF8F0;
+    font-size: 1.2em;
+}
+
+h3{
+
+    color: #255C99;
+    text-align: center;
+}
