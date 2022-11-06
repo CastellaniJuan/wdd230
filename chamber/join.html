@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monte Grande Chamber</title>
+    <meta name="description" content="Monte Grande Chamber Web Site">
+    <meta name="author" content="Juan Ignacio Castellani">
+    <link rel="shortcut icon" href="favicon.webp">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h3 id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h3>
+        <div class="flexheader">
+            <div class="logocontainer">
+                <img src="images/logo.png" alt="Chamber Logo">
+                <div class="name">
+                    <h1>Monte Grande</h1>
+                    <h2>Chamber of Commerce</h2>
+                </div>
+            </div>
+            <div class="menucontainer">
+                <nav>
+                    <ul id="navbar">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="join.html">Join</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <button id="navbtn"><span>&#9776;</span><span>X</span></button>
+
+                <div class="socials">
+                    <a href="https://twitter.com"><img src="images/twitter-icon.png" alt="twitter"></a>
+                    <a href="https://linkedin.com"><img src="images/linkedin-icon.png" alt="linkedin"></a>
+                </div>
+            </div>
+        </div>
+        <h3 id="date">DATE</h3>
+    </header>
+    <main>
+
+        <form id="joinform" method="post" action="thankyou.html">
+            <label for="firstname">First name<span class="required">*</span></label>
+            <input id="firstname" type="text" name="firstname" required>
+            <label for="lastname">Last name<span class="required">*</span></label>
+            <input id="lastname" type="text" name="lastname" required>
+            <label for="position">Business position</label>
+            <input id="position" type="text" name="position">
+            <label for="email">Email<span class="required">*</span></label>
+            <input id="email" type="email" name="email" placeholder="name@example.com" required>
+            <label for="phonenumber">Phone number<span class="required">*</span></label>
+            <input id="phonenumber" type="tel" name="phonenumber" required>
+            <label for="business">Business name/title<span class="required">*</span></label>
+            <input id="business" type="text" name="business" required>
+            <label for="membership">Membership level<span class="required">*</span></label>
+            <select id="membership" name="membership" required>
+                <option disabled selected hidden>Select a plan</option>
+                <option value="NP">Non-profit</option>
+                <option value="Bronze">Bronze</option>
+                <option value="Silver">Silver</option>
+                <option value="Gold">Gold</option>
+            </select>
+            <label for="description">Business description</label>
+            <textarea maxlength="250" name="description"></textarea>
+            <input id="datevalue" type="hidden" name="datevalue">
+            <button id="joinsubmit" type="submit">Submit</button>
+        </form>
+        <div class="gridbox" id="plandescription">
+            <h1>Membership plans</h1>
+            <h3>Non-Profit Plan</h3>
+            <h3 class="planheading">Free</h3>
+            <ul>
+                <li>For non profit organizations</li>
+                <li>Stardart business trainings</li>
+                <li>Up to 5% discounts</li>
+                <li>Basic support package</li>
+            </ul>
+            <h3>Bronze plan</h3>
+            <h3 class="planheading">10 USD / Month</h3>
+            <ul>
+                <li>Stardart business trainings</li>
+                <li>Up to 10% discounts</li>
+                <li>Basic advertising package</li>
+                <li>Basic support package</li>
+            </ul>
+            <h3>Silver plan</h3>
+            <h3 class="planheading">20 USD / Month</h3>
+            <ul>
+                <li>Exclusive business trainings</li>
+                <li>Up to 25% discounts</li>
+                <li>Basic advertising package</li>
+                <li>Premium support package</li>
+                <li>Basic participation on comitee</li>
+            </ul>
+            <h3>Gold plan</h3>
+            <h3 class="planheading"b>50 USD / Month</h3>
+            <ul>
+                <li>Premium business trainings</li>
+                <li>Up to 50% discounts</li>
+                <li>Premium advertising package</li>
+                <li>Premium support package</li>
+                <li>Full participation on comitee</li>
+            </ul>
+        </div>
+
+
+    </main>
+    <footer>
+        <h2>About us</h2>
+        <div class="siteinfo">
+            <img src="images/logo.png" alt="Chamber Logo">
+            <div class="footernames">
+                <h1>Monte Grande Chamber</h1>
+                <h2>mgchamber.com</h2>
+            </div>
+            <div class="contact">
+                <p>
+                    Fictious Street 123 <br>
+                    Monte Grande, Buenos Aires, Argentina<br>
+                    Location Map<a href="https://goo.gl/maps/Z1pgpEBjkuSKj2xW6">📍</a><br>
+                    <span id="lsvisit"></span>
+                </p>
+            </div>
+        </div>
+        <div class="footerdetails">
+            <h3>&copy;<span id="copyright"></span> - Juan Ignacio Castellani - Argentina - <span id="modify">Last
+                    update: </span></h3>
+        </div>
+    </footer>
+    <script src="scripts/modify.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/progressiveloading.js"></script>
+    <script src="scripts/localstorage-days.js"></script>
+    <script src="scripts/dateforform.js"></script>
+</body>
+
+</html>

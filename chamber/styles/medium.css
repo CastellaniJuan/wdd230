@@ -83,4 +83,7 @@
         font-size: 1em;
     }
     
+    #thankyou{
+        grid-column: 1/4;
+    }
 }

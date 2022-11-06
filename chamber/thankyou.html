@@ -47,48 +47,7 @@
         <h3 id="date">DATE</h3>
     </header>
     <main>
-        <div class="gridbox" id="event">
-            <h2>Events</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam sed quaerat neque quas molestias
-                distinctio tempora eos ratione exercitationem omnis corporis, ducimus quia soluta repellendus? Facere
-                dignissimos enim non atque!</p>
-        </div>
-        <div class="gridbox" id="weather">
-            <h2>Weather</h2>
-            <img src="images/weather.png" alt="weather image" id="weatherimg">
-
-            <h3><span id="temp">9</span>ºC<br>Rainy<br>Wind Speed: <span id="windspeed">5</span>km/h <br> Wind Chill:
-                <span id="windchill"></span>
-            </h3>
-
-
-        </div>
-        <div class="placeholder" id="news">
-            <p>News</p>
-        </div>
-        <div class="gridbox" id="hero">
-            <picture>
-                <source srcset="images/wdd230-org-small.jpg" media="(max-width: 599px)" )>
-                <source srcset="images/wdd230-org-medium.jpg" media="(min-width: 600px) and (max-width:850px)" )>
-                <img src="images/wdd230-org-large.jpg" id="herophoto" alt="Monte Grande">
-            </picture>
-
-            <h2 id="heromessage">Welcome to Monte Grande</h2>
-            <a href="#" id="herojoin">Join the Chamber</a>
-        </div>
-        <div class="gridbox" id="join">
-            <a href="#">Join Us!</a>
-            <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
-        </div>
-        <div class="placeholder" id="spotlight1">
-            <p>Spotlight 1</p>
-        </div>
-        <div class="placeholder" id="spotlight2">
-            <p>Spotlight 2</p>
-        </div>
-        <div class="placeholder" id="spotlight3">
-            <p>Spotlight 3</p>
-        </div>
+        <h2 id="thankyou">Thank you for your interest in joining the chamber. We will contact you as soon as possible through email. </h2>
     </main>
     <footer>
         <h2>About us</h2>
@@ -102,7 +61,8 @@
                 <p>
                     Fictious Street 123 <br>
                     Monte Grande, Buenos Aires, Argentina<br>
-                    Location Map<a href="https://goo.gl/maps/Z1pgpEBjkuSKj2xW6">📍</a>
+                    Location Map<a href="https://goo.gl/maps/Z1pgpEBjkuSKj2xW6">📍</a><br>
+                    <span id="lsvisit"></span>
                 </p>
             </div>
         </div>
@@ -113,7 +73,8 @@
     </footer>
     <script src="scripts/modify.js"></script>
     <script src="scripts/menu.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/progressiveloading.js"></script>
+    <script src="scripts/localstorage-days.js"></script>
 </body>
 
 </html>
