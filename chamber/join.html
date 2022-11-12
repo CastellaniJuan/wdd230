@@ -54,7 +54,8 @@
             <label for="lastname">Last name<span class="required">*</span></label>
             <input id="lastname" type="text" name="lastname" required>
             <label for="position">Business position</label>
-            <input id="position" type="text" name="position">
+            <input id="position" type="text" name="position" pattern="[A-Za-z0-9- ]{7,}"
+                title="This field is not required but only accepts alpha characters, hyphens, and spaces with a minimum of seven characters">
             <label for="email">Email<span class="required">*</span></label>
             <input id="email" type="email" name="email" placeholder="name@example.com" required>
             <label for="phonenumber">Phone number<span class="required">*</span></label>
@@ -102,7 +103,7 @@
                 <li>Basic participation on comitee</li>
             </ul>
             <h3>Gold plan</h3>
-            <h3 class="planheading"b>50 USD / Month</h3>
+            <h3 class="planheading" b>50 USD / Month</h3>
             <ul>
                 <li>Premium business trainings</li>
                 <li>Up to 50% discounts</li>
@@ -140,7 +141,7 @@
     <script src="scripts/menu.js"></script>
     <script src="scripts/progressiveloading.js"></script>
     <script src="scripts/localstorage-days.js"></script>
-    <script src="scripts/dateforform.js"></script>
+    <script src="scripts/joinform.js"></script>
 </body>
 
 </html>
