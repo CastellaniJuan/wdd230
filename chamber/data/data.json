@@ -5,7 +5,7 @@
       "address": "Alem 385 - Monte Grande",
       "phonenumber": "+54 9 11 6232 1771",
       "url": "https://www.localsonly.com.ar",
-      "image": "",
+      "image": "images/localsonly.jpg",
       "membership": "Silver",
       "category": "Clothing"
     },
@@ -14,7 +14,7 @@
       "address": "Boulevard Buenos Aires 351 - Monte Grande",
       "phonenumber": "0810-777-7862",
       "url": "https://www.stockcenter.com.ar/home",
-      "image": "",
+      "image": "images/stockcenter.jpg",
       "membership": "Bronze",
       "category": "Clothing"
     },
@@ -23,7 +23,7 @@
       "address": "Sofía T. Santamarina 455 - Monte Grande",
       "phonenumber": "0810-999-6800",
       "url": "https://www.estebanecheverria.gob.ar",
-      "image": "",
+      "image": "images/estebanecheverria.jpg",
       "membership": "Non-Profit",
       "category": "Non Profit - Townhall"
     },
@@ -32,7 +32,7 @@
       "address": "Leandro N. Alem 299 - Monte Grande",
       "phonenumber": "0810-222-2834",
       "url": "https://www.casadelaudio.com",
-      "image": "",
+      "image": "images/casadelaudio.jpg",
       "membership": "Gold",
       "category": "Tech"
     },
@@ -41,7 +41,7 @@
       "address": "Leandro N Alem 167 - Monte Grande",
       "phonenumber": "0800-666-4321",
       "url": "https://www.farmacity.com",
-      "image": "",
+      "image": "images/farmacity.jpg",
       "membership": "Silver",
       "category": "Pharmaceutic, hygiene and cosmetics"
     },
@@ -50,7 +50,7 @@
       "address": "Hipólito Yrigoyen 48 - Monte Grande",
       "phonenumber": "0810 333 8700",
       "url": "https://www.fravega.com",
-      "image": "",
+      "image": "images/fravega.jpg",
       "membership": "Silver",
       "category": "Tech"
     },
@@ -59,7 +59,7 @@
       "address": "A. Rojas 761 - Monte Grande",
       "phonenumber": "+54 9 11 4254 3966",
       "url": "https://loria.com.ar",
-      "image": "",
+      "image": "images/loria.jpg",
       "membership": "Bronze",
       "category": "Clothing"
     },
@@ -68,7 +68,7 @@
       "address": "Leandro N. Alem 375 - Monte Grande",
       "phonenumber": "+54 9 11 4367 9791",
       "url": "https://www.narrowjeans.com.ar",
-      "image": "",
+      "image": "images/narrow.jpg",
       "membership": "Silver",
       "category": "Clothing"
     },
@@ -77,7 +77,7 @@
       "address": "Anacleto Rojas 115 - Monte Grande",
       "phonenumber": "+54 9 11 4284 2419",
       "url": "http://www.vaicrem.com.ar/",
-      "image": "",
+      "image": "images/vaicrem.jpg",
       "membership": "Bronze",
       "category": "Icecream"
     }
