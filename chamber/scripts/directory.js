@@ -1,5 +1,5 @@
 const requestURL = 'https://raw.githubusercontent.com/CastellaniJuan/wdd230/main/chamber/data/data.json';
-const main = document.querySelector('main');
+
 
 
 fetch(requestURL)
@@ -38,6 +38,9 @@ function displayProphets(company) {
     portrait.setAttribute('alt', company.name + " logo");
     membership.style.fontSize = "1.1em";
     membership.style.fontweight = "bolder";
+    membership.classList.add("nodisplay");
+    category.classList.add("nodisplay");
+    portrait.classList.add("nodisplay");
 
     switch (company.membership){
         case "Bronze":
@@ -60,7 +63,24 @@ function displayProphets(company) {
     card.appendChild(url);
     card.appendChild(category);
 
-    document.querySelector('main').appendChild(card);
+    document.querySelector('#companies').appendChild(card);
 }
 
 
+
+const main = document.querySelector('#companies');
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+
+gridbutton.addEventListener("click", () => {
+	// example using arrow function
+	main.classList.add("directorygrid");
+	main.classList.remove("directorylist");
+});
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	main.classList.add("directorylist");
+	main.classList.remove("directorygrid");
+}

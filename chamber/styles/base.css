@@ -474,3 +474,55 @@ textarea {
     width: 100%;
     padding: 0.2em 0;
 }
+
+.directorygrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 10em;
+    justify-items: center;
+    padding: 1em;
+    grid-gap: 1em;
+}
+
+.directorylist {
+    display: flex;
+    flex-direction: column;
+}
+
+.directorylist>section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: left;
+    text-align: left;
+    margin-top: 1em;
+    width: 100%;
+}
+
+
+.directorylist>section>h1 {
+    background-color: #F5F1ED;
+    color: #2f6690;
+    width: auto;
+    font-size: 1.2em;
+    margin-left: 1em;
+}
+
+.directorylist>section>.nodisplay {
+    display: none;
+}
+.buttoncontainer{
+    display: flex;
+    justify-content: center;
+    width:fit-content;
+    margin: auto;
+}
+.togglebutton{
+    margin: 1em;
+    display: block;
+    width: auto;
+    justify-self: center;
+    background-color: #2f6690;
+    color: #F5F1ED;
+    padding: 1em;
+    border-radius: 1em;
+}

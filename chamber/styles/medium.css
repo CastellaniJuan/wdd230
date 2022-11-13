@@ -87,7 +87,7 @@
         grid-column: 1/4;
     }
 
-    #directory{
+    .directorygrid{
         grid-template-columns: 1fr 1fr;
     }
 

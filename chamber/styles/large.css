@@ -101,7 +101,7 @@
         grid-column: 1/5;
     }
 
-    #directory{
+    .directorygrid{
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
