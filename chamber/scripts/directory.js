@@ -16,7 +16,7 @@ fetch(requestURL)
 function displayProphets(company) {
 
     let card = document.createElement('section');
-    let name = document.createElement('h2');
+    let name = document.createElement('h1');
     let address = document.createElement('p');
     let phonenumber = document.createElement('p');
     let url = document.createElement('a');

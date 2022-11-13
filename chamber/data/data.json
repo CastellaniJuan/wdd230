@@ -2,7 +2,7 @@
   "companies": [
     {
       "name": "Locals Only",
-      "address": "Alem 385 - Monte Grande",
+      "address": "Leando N. Alem 385",
       "phonenumber": "+54 9 11 6232 1771",
       "url": "https://www.localsonly.com.ar",
       "image": "images/localsonly.jpg",
@@ -11,7 +11,7 @@
     },
     {
       "name": "Stock Center",
-      "address": "Boulevard Buenos Aires 351 - Monte Grande",
+      "address": "Boulevard Buenos Aires 351",
       "phonenumber": "0810-777-7862",
       "url": "https://www.stockcenter.com.ar/home",
       "image": "images/stockcenter.jpg",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Esteban Echeverria",
-      "address": "Sofía T. Santamarina 455 - Monte Grande",
+      "address": "Sofía T. Santamarina 455",
       "phonenumber": "0810-999-6800",
       "url": "https://www.estebanecheverria.gob.ar",
       "image": "images/estebanecheverria.jpg",
@@ -29,7 +29,7 @@
     },
     {
       "name": "Casa del Audio",
-      "address": "Leandro N. Alem 299 - Monte Grande",
+      "address": "Leandro N. Alem 299",
       "phonenumber": "0810-222-2834",
       "url": "https://www.casadelaudio.com",
       "image": "images/casadelaudio.jpg",
@@ -38,7 +38,7 @@
     },
     {
       "name": "Farmacity",
-      "address": "Leandro N Alem 167 - Monte Grande",
+      "address": "Leandro N Alem 167",
       "phonenumber": "0800-666-4321",
       "url": "https://www.farmacity.com",
       "image": "images/farmacity.jpg",
@@ -47,7 +47,7 @@
     },
     {
       "name": "Fravega",
-      "address": "Hipólito Yrigoyen 48 - Monte Grande",
+      "address": "Hipólito Yrigoyen 48",
       "phonenumber": "0810 333 8700",
       "url": "https://www.fravega.com",
       "image": "images/fravega.jpg",
@@ -56,7 +56,7 @@
     },
     {
       "name": "Loria Skate Shop",
-      "address": "A. Rojas 761 - Monte Grande",
+      "address": "Anacleto Rojas 761",
       "phonenumber": "+54 9 11 4254 3966",
       "url": "https://loria.com.ar",
       "image": "images/loria.jpg",
@@ -65,7 +65,7 @@
     },
     {
       "name": "Narrow",
-      "address": "Leandro N. Alem 375 - Monte Grande",
+      "address": "Leandro N. Alem 375",
       "phonenumber": "+54 9 11 4367 9791",
       "url": "https://www.narrowjeans.com.ar",
       "image": "images/narrow.jpg",
@@ -74,7 +74,7 @@
     },
     {
       "name": "Vaicrem",
-      "address": "Anacleto Rojas 115 - Monte Grande",
+      "address": "Anacleto Rojas 115",
       "phonenumber": "+54 9 11 4284 2419",
       "url": "http://www.vaicrem.com.ar/",
       "image": "images/vaicrem.jpg",
