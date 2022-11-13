@@ -1,5 +1,5 @@
-const requestURL = 'data/data.json';
-const cards = document.querySelector('.cards');
+const requestURL = 'https://raw.githubusercontent.com/CastellaniJuan/wdd230/75ebacd63b5a2df80b7c8fc13113215ed1c63e0b/chamber/data/data.json';
+const main = document.querySelector('main');
 
 
 fetch(requestURL)
@@ -24,6 +24,8 @@ function displayProphets(company) {
     let membership = document.createElement('p');
     let category = document.createElement('p');
 
+    card.classList.add('cards');
+
     name.textContent = company.name;
     address.textContent = company.address;
     phonenumber.textContent = company.address;
@@ -41,7 +43,7 @@ function displayProphets(company) {
     card.appendChild(membership);
     card.appendChild(category);
 
-    document.querySelector('div.cards').appendChild(card);
+    document.querySelector('main').appendChild(card);
 }
 
 
