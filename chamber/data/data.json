@@ -1,0 +1,85 @@
+{
+  "companies": [
+    {
+      "name": "Locals Only",
+      "address": "Alem 385 - Monte Grande",
+      "phonenumber": "+54 9 11 6232 1771",
+      "url": "https://www.localsonly.com.ar",
+      "image": "",
+      "membership": "Silver",
+      "category": "Clothing"
+    },
+    {
+      "name": "Stock Center",
+      "address": "Boulevard Buenos Aires 351 - Monte Grande",
+      "phonenumber": "0810-777-7862",
+      "url": "https://www.stockcenter.com.ar/home",
+      "image": "",
+      "membership": "Bronze",
+      "category": "Clothing"
+    },
+    {
+      "name": "Municipalidad Esteban Echeverria",
+      "address": "Sofía T. Santamarina 455 - Monte Grande",
+      "phonenumber": "0810-999-6800",
+      "url": "https://www.estebanecheverria.gob.ar",
+      "image": "",
+      "membership": "Non-Profit",
+      "category": "Non Profit - Townhall"
+    },
+    {
+      "name": "Casa del Audio",
+      "address": "Leandro N. Alem 299 - Monte Grande",
+      "phonenumber": "0810-222-2834",
+      "url": "https://www.casadelaudio.com",
+      "image": "",
+      "membership": "Gold",
+      "category": "Tech"
+    },
+    {
+      "name": "Farmacity",
+      "address": "Leandro N Alem 167 - Monte Grande",
+      "phonenumber": "0800-666-4321",
+      "url": "https://www.farmacity.com",
+      "image": "",
+      "membership": "Silver",
+      "category": "Pharmaceutic, hygiene and cosmetics"
+    },
+    {
+      "name": "Fravega",
+      "address": "Hipólito Yrigoyen 48 - Monte Grande",
+      "phonenumber": "0810 333 8700",
+      "url": "https://www.fravega.com",
+      "image": "",
+      "membership": "Silver",
+      "category": "Tech"
+    },
+    {
+      "name": "Loria Skate Shop",
+      "address": "A. Rojas 761 - Monte Grande",
+      "phonenumber": "+54 9 11 4254 3966",
+      "url": "https://loria.com.ar",
+      "image": "",
+      "membership": "Bronze",
+      "category": "Clothing"
+    },
+    {
+      "name": "Narrow",
+      "address": "Leandro N. Alem 375 - Monte Grande",
+      "phonenumber": "+54 9 11 4367 9791",
+      "url": "https://www.narrowjeans.com.ar",
+      "image": "",
+      "membership": "Silver",
+      "category": "Clothing"
+    },
+    {
+      "name": "Vaicream",
+      "address": "Anacleto Rojas 115 - Monte Grande",
+      "phonenumber": "+54 9 11 4284 2419",
+      "url": "http://www.vaicrem.com.ar/",
+      "image": "",
+      "membership": "Bronze",
+      "category": "Icecreamadd"
+    }
+  ]
+}
