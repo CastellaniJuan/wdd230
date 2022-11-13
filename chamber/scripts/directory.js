@@ -1,4 +1,4 @@
-const requestURL = 'https://raw.githubusercontent.com/CastellaniJuan/wdd230/75ebacd63b5a2df80b7c8fc13113215ed1c63e0b/chamber/data/data.json';
+const requestURL = 'https://raw.githubusercontent.com/CastellaniJuan/wdd230/main/chamber/data/data.json';
 const main = document.querySelector('main');
 
 
@@ -28,7 +28,7 @@ function displayProphets(company) {
 
     name.textContent = company.name;
     address.textContent = company.address;
-    phonenumber.textContent = company.address;
+    phonenumber.textContent = company.phonenumber;
     url.setAttribute('href', company.url);
     url.textContent = company.name + " site";
     portrait.setAttribute('src', company.image);
@@ -37,9 +37,10 @@ function displayProphets(company) {
     category.textContent = company.category;
 
     card.appendChild(name);
-    card.appendChild(address);
-    card.appendChild(url);
     card.appendChild(portrait);
+    card.appendChild(address);
+    card.appendChild(phonenumber);
+    card.appendChild(url);
     card.appendChild(membership);
     card.appendChild(category);
 

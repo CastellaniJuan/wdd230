@@ -79,11 +79,21 @@
         margin-top: 1.1em;
     }
 
-    .discovery-box p{
+    .discovery-box p {
         font-size: 1em;
     }
-    
-    #thankyou{
+
+    #thankyou {
         grid-column: 1/4;
     }
+
+    #directory{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cards {
+        grid-column: span 1;
+    }
+
+
 }
