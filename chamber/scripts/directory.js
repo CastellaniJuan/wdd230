@@ -27,21 +27,37 @@ function displayProphets(company) {
     card.classList.add('cards');
 
     name.textContent = company.name;
-    address.textContent = company.address;
-    phonenumber.textContent = company.phonenumber;
-    url.setAttribute('href', company.url);
-    url.textContent = company.name + " site";
-    portrait.setAttribute('src', company.image);
-    portrait.setAttribute('alt', company.name + " logo");
+    address.textContent = "📍 " + company.address;
+    phonenumber.textContent = "📞 " + company.phonenumber;
+    url.textContent = "🌐 " + company.name + " site";
     membership.textContent = company.membership + " member";
     category.textContent = company.category;
 
+    url.setAttribute('href', company.url);
+    portrait.setAttribute('src', company.image);
+    portrait.setAttribute('alt', company.name + " logo");
+    membership.style.fontSize = "1.1em";
+    membership.style.fontweight = "bolder";
+
+    switch (company.membership){
+        case "Bronze":
+            membership.style.color = "#967444";
+            break;
+        case "Silver":
+            membership.style.color = "#808080";
+            break;
+        case "Gold":
+            membership.style.color = "#cda434";
+            break;
+    }
+    
+
     card.appendChild(name);
+    card.appendChild(membership);
     card.appendChild(portrait);
     card.appendChild(address);
     card.appendChild(phonenumber);
     card.appendChild(url);
-    card.appendChild(membership);
     card.appendChild(category);
 
     document.querySelector('main').appendChild(card);
