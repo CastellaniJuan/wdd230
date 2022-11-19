@@ -1,0 +1,17 @@
+main {
+    max-width: 960px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+}
+
+h1,
+h2,
+#current-temp,
+figcaption {
+    color: #2f6690;
+}
+
+figcaption, #current-temp{
+    font-weight: bold;
+}
