@@ -7,7 +7,8 @@
       "url": "https://www.localsonly.com.ar",
       "image": "images/localsonly.jpg",
       "membership": "Silver",
-      "category": "Clothing"
+      "category": "Clothing",
+      "info": "Cool clothing, one place"
     },
     {
       "name": "Stock Center",
@@ -15,8 +16,10 @@
       "phonenumber": "0810-777-7862",
       "url": "https://www.stockcenter.com.ar/home",
       "image": "images/stockcenter.jpg",
-      "membership": "Bronze",
-      "category": "Clothing"
+      "membership": "Gold",
+      "category": "Clothing",
+      "info":"Everything in sports"
+      
     },
     {
       "name": "Esteban Echeverria",
@@ -25,7 +28,9 @@
       "url": "https://www.estebanecheverria.gob.ar",
       "image": "images/echeverria.jpg",
       "membership": "Non-Profit",
-      "category": "Non Profit - Townhall"
+      "category": "Non Profit - Townhall",
+      "info":"Esteban Echeverria's Town Hall"
+      
     },
     {
       "name": "Casa del Audio",
@@ -34,7 +39,8 @@
       "url": "https://www.casadelaudio.com",
       "image": "images/casadelaudio.jpg",
       "membership": "Gold",
-      "category": "Tech"
+      "category": "Tech",
+      "info": "Best tech prizes in town"
     },
     {
       "name": "Farmacity",
@@ -43,7 +49,8 @@
       "url": "https://www.farmacity.com",
       "image": "images/farmacity.jpg",
       "membership": "Silver",
-      "category": "Pharmaceutic, hygiene and cosmetics"
+      "category": "Pharmaceutic, hygiene and cosmetics",
+      "info": "Farmacity 2x1 is the best"
     },
     {
       "name": "Fravega",
@@ -52,7 +59,8 @@
       "url": "https://www.fravega.com",
       "image": "images/fravega.jpg",
       "membership": "Silver",
-      "category": "Tech"
+      "category": "Tech",
+      "info": "Come a see our imbatible tech prizes!"
     },
     {
       "name": "Loria Skate Shop",
@@ -61,7 +69,8 @@
       "url": "https://loria.com.ar",
       "image": "images/loriash.jpg",
       "membership": "Bronze",
-      "category": "Clothing"
+      "category": "Clothing",
+      "info": "All you need in clothes"
     },
     {
       "name": "Narrow",
@@ -70,7 +79,8 @@
       "url": "https://www.narrowjeans.com.ar",
       "image": "images/narrow.jpg",
       "membership": "Silver",
-      "category": "Clothing"
+      "category": "Clothing",
+      "info": "Good quality, low prices"
     },
     {
       "name": "Vaicrem",
@@ -78,8 +88,9 @@
       "phonenumber": "+54 9 11 4284 2419",
       "url": "http://www.vaicrem.com.ar/",
       "image": "images/vaicrem.jpg",
-      "membership": "Bronze",
-      "category": "Icecream"
+      "membership": "Silver",
+      "category": "Icecream",
+      "info": "Best Icecream in town"
     }
   ]
 }

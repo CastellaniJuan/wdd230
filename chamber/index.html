@@ -34,6 +34,7 @@
                         <li><a href="discover.html">Discover</a></li>
                         <li><a href="join.html">Join</a></li>
                         <li><a href="directory.html">Directory</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
                 <button id="navbtn"><span>&#9776;</span><span>X</span></button>
@@ -51,29 +52,33 @@
             <h2>Events</h2>
             <h3>Come to the town's fair!</h3>
             <h4>It's open every Saturday from 9am to 7pm. <br>
-            At Mitre Plaza. </h4>
+                At Mitre Plaza. </h4>
             <p>You'll find local products like clothes, accesories, organic food and processed food.<br>
-            We are waiting for you :)</p>
+                We are waiting for you :)</p>
         </div>
         <div class="gridbox" id="weather">
             <h2>Weather</h2>
             <img src="" alt="" id="weatherimg">
 
-            <h3><span id="temp"></span>ºC<br><span id="climate"></span><br>Wind Speed: <span id="windspeed"></span>km/h <br> Wind Chill:
+            <h3><span id="temp"></span>ºC<br><span id="climate"></span><br>Wind Speed: <span id="windspeed"></span>km/h
+                <br> Wind Chill:
                 <span id="windchill"></span>
-                
+
             </h3>
             <a href="https://openweathermap.org" id="openweather">Open Weather Map(?)</a>
 
         </div>
-        <div class="placeholder" id="news">
-            <p>News</p>
+        <div class="gridbox" id="news">
+            <h2>News</h2>
+            <h3>FIFA World Cup Update</h3>
+            <h4>Argentina 2 - 0 Mexico <br></h4>
+            <p>In today's match (11/26) Argentina won against Mexico in the group phase with the goals of Leo Messi and Enzo Fernandez, giving our national team the chance to find its place in the Round of 16. </p>
         </div>
         <div class="gridbox" id="hero">
             <picture>
-                <source srcset="images/wdd230-org-small.jpg" media="(max-width: 599px)" )>
-                <source srcset="images/wdd230-org-medium.jpg" media="(min-width: 600px) and (max-width:850px)" )>
-                <img src="images/wdd230-org-large.jpg" id="herophoto" alt="Monte Grande">
+                <source srcset="images/montegrande-small.jpg" media="(max-width: 450px)" )>
+                <source srcset="images/montegrande-medium.jpg" media="(min-width: 451px) and (max-width:850px)" )>
+                <img src="images/montegrande-large.jpg" id="herophoto" alt="Monte Grande">
             </picture>
 
             <h2 id="heromessage">Welcome to Monte Grande</h2>
@@ -83,14 +88,32 @@
             <a href="join.html">Join Us!</a>
             <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
         </div>
-        <div class="placeholder" id="spotlight1">
-            <p>Spotlight 1</p>
+        <div class="gridbox" id="spotlight1">
+            <h3><span id="name1"></span></h3>
+            <img id="img1" src="images/placeholder.png" alt="">
+            <p>
+                <span id="address1"></span><br>
+                <span id="phone1"></span><br>
+                <a href="" id="web1">Website</a></span>
+            </p>
         </div>
-        <div class="placeholder" id="spotlight2">
-            <p>Spotlight 2</p>
+        <div class="gridbox" id="spotlight2">
+            <h3><span id="name2"></span></h3>
+            <img id="img2" src="images/placeholder.png" alt="">
+            <p>
+                <span id="address2"></span><br>
+                <span id="phone2"></span><br>
+                <a href="" id="web2">Website</a></span>
+            </p>
         </div>
-        <div class="placeholder" id="spotlight3">
-            <p>Spotlight 3</p>
+        <div class="gridbox" id="spotlight3">
+            <h3><span id="name3"></span></h3>
+            <img id="img3" src="images/placeholder.png" alt="">
+            <p>
+                <span id="address3"></span><br>
+                <span id="phone3"></span><br>
+                <a href="" id="web3">Website</a></span>
+            </p>
         </div>
     </main>
     <footer>
@@ -118,6 +141,7 @@
     <script src="scripts/menu.js"></script>
     <script src="scripts/windchill.js"></script>
     <script src="scripts/weather-api.js"></script>
+    <script src="scripts/spotlights.js"></script>
 </body>
 
 </html>

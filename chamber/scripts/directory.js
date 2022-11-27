@@ -8,12 +8,12 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         const companies = jsonObject['companies'];
-        companies.forEach(displayProphets);
+        companies.forEach(displayCompanies);
     });
 
 
 
-function displayProphets(company) {
+function displayCompanies(company) {
 
     let card = document.createElement('section');
     let name = document.createElement('h1');

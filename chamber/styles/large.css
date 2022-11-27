@@ -97,11 +97,17 @@
         grid-row: 1/6;
     }
 
+    #contactus {
+        grid-column: 3/5;
+        grid-row: 1/6;
+    }
+
+
     #thankyou {
         grid-column: 1/5;
     }
 
-    .directorygrid{
+    .directorygrid {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }

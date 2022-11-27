@@ -87,13 +87,12 @@
         grid-column: 1/4;
     }
 
-    .directorygrid{
+    .directorygrid {
         grid-template-columns: 1fr 1fr;
     }
 
     .cards {
         grid-column: span 1;
     }
-
 
 }

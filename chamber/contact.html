@@ -49,69 +49,59 @@
     </header>
     <main>
 
-        <form id="joinform" method="get" action="thankyou.html" autocomplete>
+        <form id="joinform" method="get" action="messagesent.html" autocomplete>
             <label for="firstname">First name<span class="required">*</span></label>
             <input id="firstname" type="text" name="firstname" required autofocus>
+
             <label for="lastname">Last name<span class="required">*</span></label>
             <input id="lastname" type="text" name="lastname" required>
-            <label for="position">Business position</label>
-            <input id="position" type="text" name="position" pattern="[A-Za-z0-9- ]{7,}"
-                title="This field is not required but only accepts alpha characters, hyphens, and spaces with a minimum of seven characters">
-            <label for="email">Email<span class="required">*</span></label>
-            <input id="email" type="email" name="email" placeholder="name@example.com" required>
-            <label for="phonenumber">Phone number<span class="required">*</span></label>
-            <input id="phonenumber" type="tel" name="phonenumber" required>
-            <label for="business">Business name/title<span class="required">*</span></label>
-            <input id="business" type="text" name="business" required>
-            <label for="membership">Membership level<span class="required">*</span></label>
-            <select id="membership" name="membership" required>
-                <option disabled selected hidden>Select a plan</option>
-                <option value="NP">Non-profit</option>
-                <option value="Bronze">Bronze</option>
-                <option value="Silver">Silver</option>
-                <option value="Gold">Gold</option>
+
+            <label for="address">Mailing Address<span class="required" id="addressR"></span></label>
+            <input id="address" type="text" name="address">
+
+            <label for="email">Email<span class="required" id="emailR"></span></label>
+            <input id="email" type="email" name="email" placeholder="name@example.com">
+
+            <label for="phonenumber">Phone number<span class="required" id="phonenumberR"></span></label>
+            <input id="phonenumber" type="tel" name="phonenumber">
+
+            <label for="business">Business name/title</label>
+            <input id="business" type="text" name="business">
+
+            <label for="preference">Contact Preference<span class="required">*</span></label>
+            <select id="preference" name="preference" required>
+                <option disabled selected hidden>Choose a method</option>
+                <option value="Mail">Mail</option>
+                <option value="Email">Email</option>
+                <option value="Phone">Phone</option>
             </select>
-            <label for="description">Business description</label>
+
+            <label for="comments">Comments/Questions</label>
             <textarea maxlength="250" name="description"></textarea>
+
             <input id="datevalue" type="hidden" name="datevalue">
-            <button id="joinsubmit" type="submit">Submit</button>
+            <button id="contactsubmit" type="submit">Submit</button>
         </form>
-        <div class="gridbox" id="plandescription">
-            <h1>Membership plans</h1>
-            <h3>Non-Profit Plan</h3>
-            <h3 class="planheading">Free</h3>
-            <ul>
-                <li>For non profit organizations</li>
-                <li>Stardart business trainings</li>
-                <li>Up to 5% discounts</li>
-                <li>Basic support package</li>
-            </ul>
-            <h3>Bronze plan</h3>
-            <h3 class="planheading">10 USD / Month</h3>
-            <ul>
-                <li>Stardart business trainings</li>
-                <li>Up to 10% discounts</li>
-                <li>Basic advertising package</li>
-                <li>Basic support package</li>
-            </ul>
-            <h3>Silver plan</h3>
-            <h3 class="planheading">20 USD / Month</h3>
-            <ul>
-                <li>Exclusive business trainings</li>
-                <li>Up to 25% discounts</li>
-                <li>Basic advertising package</li>
-                <li>Premium support package</li>
-                <li>Basic participation on comitee</li>
-            </ul>
-            <h3>Gold plan</h3>
-            <h3 class="planheading" b>50 USD / Month</h3>
-            <ul>
-                <li>Premium business trainings</li>
-                <li>Up to 50% discounts</li>
-                <li>Premium advertising package</li>
-                <li>Premium support package</li>
-                <li>Full participation on comitee</li>
-            </ul>
+        <div class="gridbox" id="contactus">
+            <h1>Visit us</h1>
+            <p>Fictious Street 123</p>
+            <p> Monte Grande, Buenos Aires, Argentina</p>
+            <p> Monday – Friday: 9:00 a.m. to 5:00 p.m.</p>
+            <a href="mailto:montegrandechamber@mgchamber.com">📧montegrandechamber@mgchamber.com</a>
+            <hr>
+            <h1>Points of Contact</h1>
+            <p>Juan Ignacio Castellani</p>
+            <p>President & CEO</p>
+            <p>+54 9 11 2400 6662</p>
+            <a href="mailto:u569194036@byui.edu">📧u569194036@byui.edu</a>
+            <p>Lucas Paz</p>
+            <p>Chairman & CFO</p>
+            <p>+54 9 11 5120 8547</p>
+            <a href="mailto:u569194036@byui.edu">📧skulpaz@mgchamber.com</a>
+            <p>Tomas Pedersen</p>
+            <p>Chairman & COO</p>
+            <p>+54 9 11 1234 9652</p>
+            <a href="mailto:u569194036@byui.edu">📧tom1oka@mgchamber.com</a>
         </div>
 
 
@@ -143,6 +133,7 @@
     <script src="scripts/progressiveloading.js"></script>
     <script src="scripts/localstorage-days.js"></script>
     <script src="scripts/joinform.js"></script>
+    <script src="scripts/contact.js"></script>
 </body>
 
 </html>
