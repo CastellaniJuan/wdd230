@@ -4,6 +4,10 @@
         max-width: 1050px;
     }
 
+    #business{
+        grid-row: 1/8;
+    }
+
     nav ul {
         background-color: #CCD5AE;
         overflow: hidden;

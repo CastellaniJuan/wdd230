@@ -52,4 +52,8 @@
         height:100%;
     }
 
+    #business{
+        grid-row: 1/6;
+    }
+
 }

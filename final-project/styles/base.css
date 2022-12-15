@@ -3,8 +3,9 @@ body {
     background-color: #fefae0;
 }
 
-a {
+a, a:visited, a:hover {
     text-decoration: none;
+    color: #151515;
 }
 
 h1,
@@ -263,4 +264,36 @@ textarea {
 
 .required {
     color: red;
+}
+
+#business{
+    grid-row: 1/11;
+    text-align: center;
+}
+
+
+#people{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+#people>section>*{
+    margin: 0.25em;
+    padding: 0.3em;
+}
+
+#people>section{
+    border: 1px solid #CCD5AE;
+    background-color: #fefae0;
+    border-radius: 2em;
+}
+
+#people h1{
+    width:100%;
+}
+
+.portrait{
+    border-radius: 50%;
 }
