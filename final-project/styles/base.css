@@ -188,10 +188,7 @@ main {
     grid-template-columns: 1fr 1fr;
 }
 
-#drinksmade {
-    grid-row: 19/22;
-    display: none;
-}
+
 
 
 footer {
