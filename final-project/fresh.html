@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+    <meta name="description" content="Bountiful foods Web Site Project for WDD230 - Brigham Young University">
+    <meta name="author" content="Juan Ignacio Castellani">
+    <link rel="shortcut icon" href="favicon.webp">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div id="banner-container">
+            <img src="images/Icon.png" id="icon" alt="Bountiful Icon">
+            <h1 id="maintitle">Bountiful Foods</h1>
+            <div id="social-icons">
+                <a href="https://twitter.com"><img src="images/twitter.png" alt="twitter"></a>
+                <a href="https://facebook.com"><img src="images/facebook.png" alt="facebook"></a>
+                <a href="https://instagram.com"><img src="images/instagram.png" alt="instagram"></a>
+            </div>
+        </div>
+        <nav>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="about.html">About us</a></li>
+            </ul>
+        </nav>
+        <button id="navbtn"><span>&#9776;</span><span>X</span></button>
+    </header>
+    <main>
+        <form id="freshform">
+            <label for="firstname">First name<span class="required">*</span></label>
+            <input id="firstname" type="text" name="firstname" required autofocus>
+
+            <label for="email">Email<span class="required">*</span></label>
+            <input id="email" type="email" name="email" placeholder="name@example.com" required>
+
+            <label for="phonenumber">Phone number<span class="required">*</span></label>
+            <input id="phonenumber" type="tel" name="phonenumber" required>
+
+            <label for="fruit1">Fruit 1<span class="required">*</span></label>
+            <select id="fruit1" name="fruit1" required>
+            </select>
+
+            <label for="fruit2">Fruit 2</label>
+            <select id="fruit2" name="fruit2">
+            </select>
+
+            <label for="fruit3">Fruit 3</label>
+            <select id="fruit3" name="fruit3">
+            </select>
+
+
+            <label for="instructions">Special instructions</label>
+            <textarea maxlength="250" name="instructions" id="instructions"></textarea>
+            <button id="freshsubmit" type="button">Fresh!</button>
+        </form>
+
+    </main>
+    <footer>
+        <div id="info">
+            <div>
+                <p>
+                    Bountiful Foods <br>
+                    www.bountifulfoods.com
+                </p>
+            </div>
+            <div>
+                <p>customerservice@bountiful.com <br>
+                    Carlsbad, California</p>
+            </div>
+        </div>
+        <h3 id="lastmod">&copy;<span id="copyright"></span> - Juan Ignacio Castellani - Argentina <br><span
+                id="modify">Last
+                update: </span></h3>
+    </footer>
+    <script src="scripts/modify.js"></script>
+    <script src="scripts/weather-api.js"></script>
+    <script src="scripts/progressiveloading.js"></script>
+    <script src="scripts/menu.js"></script>
+</body>
+
+</html>

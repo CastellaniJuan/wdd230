@@ -46,6 +46,7 @@ p {
     display: block;
 }
 
+
 #maintitle {
     font-size: 3em;
     background-color: #fefae0;
@@ -57,6 +58,92 @@ footer {
     margin: 0 auto;
     max-width: 1050px;
 
+}
+
+nav {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1050px;
+
+
+}
+
+nav ul{
+    position: absolute;
+    z-index: 1;
+    background-color: #fefae0;
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    top: 0;
+    left: 3em;
+}
+
+nav ul li a {
+    border: 1px solid #CCD5AE;
+    position: relative;
+    display: block;
+    color: #151515;
+    font-weight: bold;
+    text-align: center;
+    padding: 0.75em;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0.5em;
+    left: 0;
+    transform: scaleX(0);
+    height: 2px;
+    background-color: #D4A373;
+    transform-origin: middle;
+    transition: transform 0.25s ease-out;
+}
+
+nav ul li a:hover:after {
+    transform: scaleX(1);
+    transform-origin: middle;
+}
+
+nav ul li a:hover:after {
+    transform: scaleX(1);
+    transform-origin: middle;
+}
+
+
+nav ul.open {
+    display: block;
+}
+
+
+#navbtn {
+    background-color: #fefae0;
+    border: 0;
+    color: #CCD5AE;
+    text-align: center;
+    padding: 0.75em;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+#navbtn span:nth-child(1) {
+    display: block;
+}
+
+#navbtn span:nth-child(2) {
+    display: none;
+}
+
+#navbtn.open span:nth-child(1) {
+    display: none;
+}
+
+#navbtn.open span:nth-child(2) {
+    display: block;
 }
 
 main {
@@ -116,7 +203,7 @@ footer {
 }
 
 #info {
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -135,4 +222,48 @@ footer {
 
 .box>* {
     padding: 0 0.8em;
+}
+
+#freshform{
+    grid-row: 1/6;
+}
+
+label,
+input,
+textarea,
+button,
+select {
+    padding: 0.2em;
+    width: 90%;
+    margin: 0.2em auto;
+    display: inline-block;
+    font-size: 1.1em;
+    color: #2f6690;
+}
+
+input,
+select,
+textarea {
+    border: 1px solid #2f6690;
+    border-radius: 0.3em;
+}
+
+textarea {
+    resize: none;
+    height: 12em;
+}
+
+#freshsubmit {
+    width: 7em;
+    height: 3em;
+    border: none;
+    background-color: #3A7CA5;
+    color: #F8F1FF;
+    border-radius: 0.7em;
+    float: right;
+    margin-right: 10%;
+}
+
+.required {
+    color: red;
 }

@@ -69,10 +69,10 @@ nav {
 nav ul {
     background-color: #F5F1ED;
     border: 1px solid #2f6690;
-    top: 0;
-    left: -6em;
     z-index: 1;
     position: absolute;
+    top: 0;
+    left: -6em;
     list-style-type: none;
     overflow: hidden;
     display: none;
