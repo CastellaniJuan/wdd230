@@ -1,4 +1,4 @@
-const container = document.getElementById("weather");
+const container = document.getElementById("container");
 
 const url = 'https://api.openweathermap.org/data/2.5/forecast?lat=33.15&lon=-117.35&appid=9593dd778627f33833096d13b9cc5bfb&units=metric&cnt=24';
 
@@ -29,7 +29,7 @@ function displayResults(weatherData) {
 
       let dateValue = new Date(element.dt_txt)
       let section = document.createElement('section');
-      let date = document.createElement('h2');
+      let date = document.createElement('h3');
       let temp = document.createElement('h2');
       let weatherimg = document.createElement('img');
       let imgsrc = `https://openweathermap.org/img/w/${element.weather[0].icon}.png`;
@@ -39,8 +39,8 @@ function displayResults(weatherData) {
       date.innerHTML = dateValue.toLocaleDateString("en-us", options);
       temp.innerHTML = element.main.temp + "ºC";
       weatherimg.setAttribute("src", imgsrc);
-      condition.innerHTML = element.weather[0].description;
-      humidity.innerHTML = element.main.humidity + "%";
+      condition.innerHTML = element.weather[0].description.charAt(0).toUpperCase() + element.weather[0].description.slice(1);;
+      humidity.innerHTML = "Humidity: " + element.main.humidity + "%";
 
   if (dater != dateValue.toLocaleDateString("en-us", options)) {
       section.appendChild(date);
@@ -48,8 +48,10 @@ function displayResults(weatherData) {
       section.appendChild(weatherimg);
       section.appendChild(condition);
       section.appendChild(humidity);
-
+      
       container.appendChild(section);
+
+      section.classList.add('box');
 
       dater = dateValue.toLocaleDateString("en-us", options);
     } 
