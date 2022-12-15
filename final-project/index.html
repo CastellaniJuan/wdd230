@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,17 +15,18 @@
     <link rel="stylesheet" href="styles/large.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
-        <img src="images/Icon.png" id="" alt="Bountiful Icon">
-        <picture>
-            <source srcset="images/banner-small.jpg" media="(max-width: 4800px)">
-            <source srcset="images/banner-medium.jpg" media="(min-width: 481px) and (max-width:700px)">
-            <img src="images/banner-large.jpg" id="banner" alt="Banner">
-        </picture>
-        <a href="https://twitter.com"><img src="images/twitter.png" alt="twitter"></a>
-        <a href="https://facebook.com"><img src="images/facebook.png" alt="facebook"></a>
-        <a href="https://instagram.com"><img src="images/instagram.png" alt="instagram"></a>
+        <div id="banner-container">
+            <img src="images/Icon.png" id="icon" alt="Bountiful Icon">
+            <h1 id="maintitle">Bountiful Foods</h1>
+            <div id="social-icons">
+                <a href="https://twitter.com"><img src="images/twitter.png" alt="twitter"></a>
+                <a href="https://facebook.com"><img src="images/facebook.png" alt="facebook"></a>
+                <a href="https://instagram.com"><img src="images/instagram.png" alt="instagram"></a>
+            </div>
+        </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -36,10 +38,24 @@
     </header>
     <main>
         <div id="coastalareas">
+            <h1> Recommended places to visit</h1>
             <div id="area1">
+                <h2>San Diego</h2>
+                <img src="images/SD-coast.jpg" id="" alt="San Diego Coast">
+                <p>Discover the best beaches for families and off-leash dogs, beaches coveted by the world’s top surfers
+                    and the best beaches for bonfires, bike rides, tide pooling and more. So grab your beach towels,
+                    slather on the sunscreen, and get out to explore some of the finest beaches and bays in the world.
+                </p>
             </div>
 
             <div id="area2">
+                <h2>Lon Angeles</h2>
+                <img src="images/LA-coast.png" id="" alt="San Diego Coast">
+                <p>The Venice Beach Boardwalk is one of the top tourist destinations in Los Angeles. Part of the Ocean
+                    Front Walk, it's a long stretch of concrete paths hugging the beaches along the Pacific Ocean. But
+                    the surf and sand aren't the crowd-puller here. Instead, it's the vibrant beachside sidewalks,
+                    loaded with delightful characters. As a cultural mecca, people-watching here is incomparable to
+                    anywhere else in LA.</p>
             </div>
         </div>
 
@@ -48,16 +64,34 @@
         </div>
 
         <div id="gallery">
-
-
+            <h1>Gallery</h1>
+            <img src="images/gallery-1.jpg" alt="">
+            <img src="images/gallery-2.jpg" alt="">
+            <img src="images/gallery-3.jpg" alt="">
         </div>
 
         <div id="makeurown">
+            <h1>Make your own!</h1>
+            <div id="makeurown-grid">
+                <img src="images/drinks.jpg" id="" alt="Special Drinks">
+                <div>
+                    <p>With our FRESH tool you are able to create your own special drink! You can mix up to 3 different
+                        fruits
+                        and give instructions so its prepared the way you like! Don't waste any time and come make your
+                        own
+                        special drink!</p>
+                    <div id="drinksmade-small">
+                        <h2>Special drinks made</h2>
+                        <h2><span id="drinksmade-small-text">0</span></h2>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
         <div id="drinksmade">
-
+            <h1>Special drinks made</h1>
+            <h2><span id="drinksmade-text"></span></h2>
         </div>
 
 
@@ -65,11 +99,24 @@
 
     </main>
     <footer>
-
-        <h3>&copy;<span id="copyright"></span> - Juan Ignacio Castellani - Argentina - <span id="modify">Last
-            update: </span></h3>
+        <div id="info">
+            <div>
+                <p>
+                    Bountiful Foods <br>
+                    www.bountifulfoods.com
+                </p>
+            </div>
+            <div>
+                <p>customerservice@bountiful.com <br>
+                    Carlsbad, California</p>
+            </div>
+        </div>
+        <h3 id="lastmod">&copy;<span id="copyright"></span> - Juan Ignacio Castellani - Argentina <br><span
+                id="modify">Last
+                update: </span></h3>
     </footer>
     <script src="scripts/modify.js"></script>
     <script src="scripts/weather-api.js"></script>
 </body>
+
 </html>

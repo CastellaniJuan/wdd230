@@ -1,8 +1,6 @@
 body {
-    padding: 0 1em;
-    margin: 0 auto;
-    max-width: 900px;
     color: #151515;
+    background-color: #fefae0;
 }
 
 a {
@@ -15,5 +13,113 @@ h3,
 h4,
 h5,
 h6 {
-    color: #2f6690;
+    font-family: 'Libre Baskerville', serif;
 }
+
+h1 {
+    background-color: #CCD5AE;
+    width: calc(100%-0.5em);
+    padding: 0.1em 0.5em;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.05em;
+}
+
+
+
+#banner-container {
+    width: 100%;
+    background-color: #fefae0;
+    display: flex;
+    flex: auto;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#banner-contaier>*{
+    display: block;
+}
+
+#social-icons>*{
+    display:block;
+}
+
+#maintitle{
+    font-size: 3em;
+    background-color: #fefae0;
+}
+
+header, main, footer{
+    margin: 0 auto;
+    max-width: 1050px;
+    
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(1fr, 6);
+    grid-auto-rows: 150px;
+    grid-gap: 1em;
+    justify-content: center;
+    padding: 0 1em;
+    background-color: #E9EDC9;
+    border-radius: 1em;
+
+}
+
+#coastalareas {
+    grid-row: 1/6;
+    text-align: center;
+}
+
+#weather {
+    grid-row: 6/11;
+}
+
+#gallery {
+    grid-row: 11/16;
+
+}
+
+#gallery>*{
+    text-align: center;
+    display: block;
+    margin: 1em auto;
+}
+
+#makeurown {
+    grid-row: 16/19;
+    text-align: center;
+}
+
+#makeurown-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#drinksmade {
+    grid-row: 19/22;
+    display: none;
+}
+
+
+footer {
+    background-color: #fefae0;
+    padding: 1em 1em 0.2em;
+    margin-bottom: 0.1em;
+}
+
+#info {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 0;
+}
+
+#lastmod {
+    text-align: center;
+}
+

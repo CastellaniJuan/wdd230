@@ -6,6 +6,8 @@ const windSpeed = document.querySelector('#windspeed');
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=-34.82&lon=-58.46&appid=e9b006d203c58c92685fd6d9f9321fb0&units=metric';
 
+
+
 async function apiFetch() {
     try {
       const response = await fetch(url);
