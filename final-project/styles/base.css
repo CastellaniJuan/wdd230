@@ -72,16 +72,16 @@ main {
 }
 
 #coastalareas {
-    grid-row: 1/6;
+    grid-row: 1/8;
     text-align: center;
 }
 
 #weather {
-    grid-row: 6/11;
+    grid-row: 8/15;
 }
 
 #gallery {
-    grid-row: 11/16;
+    grid-row: 15/20;
 
 }
 
@@ -92,7 +92,7 @@ main {
 }
 
 #makeurown {
-    grid-row: 16/19;
+    grid-row: 20/23;
     text-align: center;
 }
 
