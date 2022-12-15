@@ -238,13 +238,13 @@ select {
     margin: 0.2em auto;
     display: inline-block;
     font-size: 1.1em;
-    color: #2f6690;
+    color: #151515;
 }
 
 input,
 select,
 textarea {
-    border: 1px solid #2f6690;
+    border: 1px solid #CCD5AE;
     border-radius: 0.3em;
 }
 
@@ -256,9 +256,9 @@ textarea {
 #freshsubmit {
     width: 7em;
     height: 3em;
-    border: none;
-    background-color: #3A7CA5;
-    color: #F8F1FF;
+    border: 1px solid #151515;
+    background-color: #CCD5AE;
+    color: #151515;
     border-radius: 0.7em;
     float: right;
     margin-right: 10%;
